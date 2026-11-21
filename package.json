@@ -1,0 +1,22 @@
+{
+  "name": "gst-invoice-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GST tax invoice billing app for a small flour mill / grocery business",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n API,WEB -c cyan,magenta \"npm run dev -w server\" \"npm run dev -w client\"",
+    "dev:server": "npm run dev -w server",
+    "dev:client": "npm run dev -w client",
+    "build": "npm run build -w client",
+    "start": "npm run build && npm run start:prod",
+    "start:prod": "npm run start -w server",
+    "test": "npm test -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.7"
+  }
+}

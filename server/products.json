@@ -1,0 +1,58 @@
+[
+  {
+    "id": "aata",
+    "name": "Aata",
+    "hsn": "110100",
+    "unit": "kg",
+    "basePrice": 42.00,
+    "gstRate": 5
+  },
+  {
+    "id": "sharbati-aata",
+    "name": "Sharbati Aata",
+    "hsn": "110100",
+    "unit": "kg",
+    "basePrice": 55.00,
+    "gstRate": 5
+  },
+  {
+    "id": "oil",
+    "name": "Oil",
+    "hsn": "150700",
+    "unit": "litre",
+    "basePrice": 145.00,
+    "gstRate": 18
+  },
+  {
+    "id": "chana",
+    "name": "Chana",
+    "hsn": "071320",
+    "unit": "kg",
+    "basePrice": 68.00,
+    "gstRate": 5
+  },
+  {
+    "id": "badam",
+    "name": "Badam",
+    "hsn": "080212",
+    "unit": "kg",
+    "basePrice": 520.00,
+    "gstRate": 12
+  },
+  {
+    "id": "besan",
+    "name": "Besan",
+    "hsn": "110610",
+    "unit": "kg",
+    "basePrice": 78.00,
+    "gstRate": 5
+  },
+  {
+    "id": "sugar",
+    "name": "Sugar",
+    "hsn": "170199",
+    "unit": "kg",
+    "basePrice": 46.00,
+    "gstRate": 5
+  }
+]
